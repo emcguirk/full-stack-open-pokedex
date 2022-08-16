@@ -42,6 +42,7 @@ jobs:
           healthcheck: "https://nameless-retreat-52999.herokuapp.com/health"
           checkstring: "ok"
           rollbackonhealthcheckfailed: true
+          
   tag_release:
     runs-on: ubuntu-20.04
     steps:
